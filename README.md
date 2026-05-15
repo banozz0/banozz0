@@ -15,7 +15,7 @@ Building practical AI-agent workflows, reusable skills, and automation systems �
 - 🎯 **[acca-tracker](https://github.com/banozz0/skills/tree/main/acca-tracker)** — multi-sport accumulator tracking skill with live-score monitoring and bet status updates
 - 🌱 **[cannabis-master-claude](https://github.com/banozz0/cannabis-master-claude)** — Claude.ai deploy version of a structured cultivation skill
 
-## Star Projects
+## Tools I Like
 
 - ☤ **[hermes-agent](https://github.com/banozz0/hermes-agent)** — fork of Hermes Agent, the self-improving AI agent
 
