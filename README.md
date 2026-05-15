@@ -1,6 +1,6 @@
 # Hi, I'm Banozz 👋
 
-📍 **Malta** | 🤖 **AI agent skills builder** | ⚡ **Hermes / Claude / Codex workflows**
+📍 **Malta** | 🤖 **AI agents** | ⚡ **Hermes / Claude / Codex **
 
 Building practical AI-agent workflows, reusable skills, and automation systems — turning messy ideas into tools that actually help.
 
