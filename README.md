@@ -13,7 +13,7 @@ Building practical agent skills, automations, and workflow systems that turn mes
 
 > Deep in builder mode — experimenting with AI agents, reusable skills, automation systems, and workflows that make everyday tasks faster, smarter, and more useful.
 
-## Start Here
+## Projects
 
 - 🧠 **[skills](https://github.com/banozz0/skills)** — reusable agent skills for Hermes, Claude, Codex, Cursor, Gemini CLI, and more
 - 🌱 **[cannabis-master-claude](https://github.com/banozz0/cannabis-master-claude)** — Claude.ai deploy version of a structured cultivation skill
@@ -21,14 +21,14 @@ Building practical agent skills, automations, and workflow systems that turn mes
 - 🐾 **[hermeshub](https://github.com/banozz0/hermeshub)** — skills hub / marketplace concept for Hermes Agent
 - ⭐️ **[awesome-hermes-agent](https://github.com/banozz0/awesome-hermes-agent)** — curated Hermes Agent ecosystem resources
 
-## Current Focus
+## WIP
 
 - Building and refining **AI agent skills**
 - Packaging workflows for **Claude.ai**, **Hermes Agent**, and coding agents
 - Turning niche knowledge into reusable automation
 - Learning fast, shipping small, improving constantly
 
-## What I'm Into
+## Interests
 
 - 🤖 AI agents and personal automation
 - 🧰 Skill systems, tool use, and agent workflows
@@ -42,6 +42,3 @@ Building practical agent skills, automations, and workflow systems that turn mes
 ## Connect
 
 [![GitHub](https://img.shields.io/badge/-Follow-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/banozz0)
-
----
-Building in public, learning by shipping.
