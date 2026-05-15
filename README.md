@@ -18,10 +18,6 @@ Building practical AI-agent workflows, reusable skills, and automation systems �
 ## Tools I Love
 
 - ☤ **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** — my favorite agent platform; I use it for skills, memory, workflows, and Telegram-first automation
-## Tools I Love
-
-- ☤ **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** — my favorite agent platform; I use it for skills, memory, workflows, and Telegram-first automation
-
 ## Current Focus
 
 - 🧩 **Agent skills** — packaging repeatable workflows into portable skill folders
