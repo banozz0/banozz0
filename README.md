@@ -1,6 +1,6 @@
-# Hi, I'm Banozz
+# Hi, I'm Banozz 👋
 
-**Malta** | **AI agent skills builder** | **Hermes / Claude / Codex workflows**
+📍 **Malta** | 🤖 **AI agent skills builder** | ⚡ **Hermes / Claude / Codex workflows**
 
 Building practical AI-agent workflows, reusable skills, and automation systems — turning messy ideas into tools that actually help.
 
@@ -15,18 +15,18 @@ Building practical AI-agent workflows, reusable skills, and automation systems �
 
 ## Start Here
 
-- **[skills](https://github.com/banozz0/skills)** — reusable agent skills for Hermes, Claude, Codex, Cursor, Gemini CLI, and more
-- **[cannabis-master-claude](https://github.com/banozz0/cannabis-master-claude)** — Claude.ai deploy version of a structured cultivation skill
-- **[hermes-agent](https://github.com/banozz0/hermes-agent)** — fork of Hermes Agent, the self-improving AI agent
-- **[hermeshub](https://github.com/banozz0/hermeshub)** — skills hub / marketplace concept for Hermes Agent
-- **[awesome-hermes-agent](https://github.com/banozz0/awesome-hermes-agent)** — curated Hermes Agent ecosystem resources
+- 🧠 **[skills](https://github.com/banozz0/skills)** — reusable agent skills for Hermes, Claude, Codex, Cursor, Gemini CLI, and more
+- 🌱 **[cannabis-master-claude](https://github.com/banozz0/cannabis-master-claude)** — Claude.ai deploy version of a structured cultivation skill
+- ☤ **[hermes-agent](https://github.com/banozz0/hermes-agent)** — fork of Hermes Agent, the self-improving AI agent
+- 🐾 **[hermeshub](https://github.com/banozz0/hermeshub)** — skills hub / marketplace concept for Hermes Agent
+- ⭐ **[awesome-hermes-agent](https://github.com/banozz0/awesome-hermes-agent)** — curated Hermes Agent ecosystem resources
 
 ## Current Projects
 
-- **Agent skills** — packaging repeatable workflows into portable skill folders
-- **Hermes workflows** — experimenting with memory, tool use, cron jobs, and Telegram-first agents
-- **Claude skill deployments** — adapting structured skills for Claude.ai
-- **Niche automation** — turning specific real-world use cases into usable agent systems
+- 🧩 **Agent skills** — packaging repeatable workflows into portable skill folders
+- 🛠 **Hermes workflows** — experimenting with memory, tool use, cron jobs, and Telegram-first agents
+- 📦 **Claude skill deployments** — adapting structured skills for Claude.ai
+- 🧪 **Niche automation** — turning specific real-world use cases into usable agent systems
 
 ## What I'm Learning
 
