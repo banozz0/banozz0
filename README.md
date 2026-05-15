@@ -15,15 +15,15 @@ Building practical AI-agent workflows, reusable skills, and automation systems �
 - 🎯 **[acca-tracker](https://github.com/banozz0/skills/tree/main/acca-tracker)** — multi-sport accumulator tracking skill with live-score monitoring and bet status updates
 - 🌱 **[cannabis-master-claude](https://github.com/banozz0/cannabis-master-claude)** — Claude.ai deploy version of a structured cultivation skill
 
-## Star Projects
+## Tools I Love
 
-- ☤ **[hermes-agent](https://github.com/banozz0/hermes-agent)** — fork of Hermes Agent, the self-improving AI agent
+- ☤ **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** — my favorite agent platform; I use it for skills, memory, workflows, and Telegram-first automation
 
 ## Current Projects
 
 - 🧩 **Agent skills** — packaging repeatable workflows into portable skill folders
 - 🛠 **Hermes workflows** — experimenting with memory, tool use, cron jobs, and Telegram-first agents
-- 🧪 **Niche automation** — turning specific real-world use cases into usable agent systems
+- 🧪 **Niche automation** — turning niche real-world problems into reusable agent systems
 
 ## What I'm Learning
 
@@ -42,3 +42,6 @@ Building practical AI-agent workflows, reusable skills, and automation systems �
 [![X](https://img.shields.io/badge/-@banozz_-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/banozz_)
 
 ---
+
+---
+Building in public. Learning by shipping.
