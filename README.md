@@ -12,6 +12,7 @@ Building practical AI-agent workflows, reusable skills, and automation systems �
 ## Personal Projects
 
 - 🧠 **[skills](https://github.com/banozz0/skills)** — reusable agent skills for Hermes, Claude, Codex, Cursor, Gemini CLI, and more
+- 🎯 **[acca-tracker](https://github.com/banozz0/skills/tree/main/acca-tracker)** — multi-sport accumulator tracking skill with live-score monitoring and bet status updates
 - 🌱 **[cannabis-master-claude](https://github.com/banozz0/cannabis-master-claude)** — Claude.ai deploy version of a structured cultivation skill
 
 ## Star Projects
@@ -38,5 +39,6 @@ Building practical AI-agent workflows, reusable skills, and automation systems �
 ## Connect
 
 [![GitHub](https://img.shields.io/badge/-Follow-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/banozz0)
+[![X](https://img.shields.io/badge/-@banozz_-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/banozz_)
 
 ---
