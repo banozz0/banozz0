@@ -17,7 +17,7 @@ Building practical AI-agent workflows, reusable skills, and automation systems �
 
 ## Tools I Like
 
-- ☤ **[hermes-agent](https://github.com/banozz0/hermes-agent)** — fork of Hermes Agent, the self-improving AI agent
+- ☤ **[hermes-agent](https://github.com/banozz0/hermes-agent)** — the self-improving AI agent I use for skills, memory, workflows, and Telegram-first automation
 
 ## Current Focus
 
