@@ -1,6 +1,6 @@
 # Hi, I'm Banozz 👋
 
-📍 **Malta** | 🤖 **AI agents / Hermes ** | ⚡ **Claude / Codex**
+📍 **Malta** | 🤖 **AI agents / Hermes** | ⚡ **Claude / Codex**
 
 Building practical AI-agent workflows, reusable skills, and automation systems — turning messy ideas into tools that actually help.
 
@@ -41,6 +41,3 @@ Building practical AI-agent workflows, reusable skills, and automation systems �
 [![GitHub](https://img.shields.io/badge/-Follow-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/banozz0)
 
 ---
-
----
-Building in public. Learning by shipping.
