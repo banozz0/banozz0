@@ -12,7 +12,7 @@ Building practical AI-agent workflows, reusable skills, and automation systems �
 ## Personal Projects
 
 - 🌱 **[cannabis-master](https://github.com/banozz0/cannabis-master)** — public Hermes cultivation skill for legal home-grow education, troubleshooting, IPM, nutrients, harvest timing, drying/curing, and safety-bounded advanced workflows
-- 🎯 **[acca-tracker](https://github.com/banozz0/skills/tree/main/acca-tracker)** — multi-sport accumulator tracking skill with live-score monitoring and bet status updates
+- 🎯 **[acca-tracker](https://github.com/banozz0/acca-tracker)** — multi-sport accumulator tracking skill with live-score monitoring and bet status updates
 
 ## Tools/Projects I Love
 
