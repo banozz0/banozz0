@@ -1,6 +1,6 @@
 # Hi, I'm Banozz 👋
 
-📍 **Malta** | 🤖 **AI agents** | ⚡ **Hermes / Claude / Codex**
+📍 **Malta** | 🤖 **AI agents / Hermes ** | ⚡ **Claude / Codex**
 
 Building practical AI-agent workflows, reusable skills, and automation systems — turning messy ideas into tools that actually help.
 
@@ -13,7 +13,7 @@ Building practical AI-agent workflows, reusable skills, and automation systems �
 
 - 🧠 **[skills](https://github.com/banozz0/skills)** — reusable agent skills for Hermes, Claude, Codex, Cursor, Gemini CLI, and more
 - 🎯 **[acca-tracker](https://github.com/banozz0/skills/tree/main/acca-tracker)** — multi-sport accumulator tracking skill with live-score monitoring and bet status updates
-- 🌱 **cannabis-master** — private Hermes cultivation skill with a separate Claude-compatible deploy format
+- 🌱 **cannabis-master** — private Hermes cultivation skill , few last tweaks before published.
 
 ## Tools I Love
 
