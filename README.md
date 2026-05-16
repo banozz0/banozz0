@@ -11,9 +11,9 @@ Building practical AI-agent workflows, reusable skills, and automation systems �
 
 ## Personal Projects
 
+- 🌱 **cannabis-master** — public Hermes cultivation skill for legal home-grow education, troubleshooting, IPM, nutrients, harvest timing, drying/curing, and safety-bounded advanced workflows
 - 🧠 **[skills](https://github.com/banozz0/skills)** — reusable agent skills for Hermes, Claude, Codex, Cursor, Gemini CLI, and more
 - 🎯 **[acca-tracker](https://github.com/banozz0/skills/tree/main/acca-tracker)** — multi-sport accumulator tracking skill with live-score monitoring and bet status updates
-- 🌱 **cannabis-master** — private Hermes cultivation skill , few last tweaks before published.
 
 ## Tools I Love
 
@@ -22,6 +22,7 @@ Building practical AI-agent workflows, reusable skills, and automation systems �
 
 - 🧩 **Agent skills** — packaging repeatable workflows into portable skill folders
 - 🛠 **Hermes workflows** — experimenting with memory, tool use, cron jobs, and Telegram-first agents
+- 🚀 **Open-source releases** — turning internal tools into polished public GitHub projects
 - 🧪 **Niche automation** — turning niche real-world problems into reusable agent systems
 
 ## What I'm Learning
