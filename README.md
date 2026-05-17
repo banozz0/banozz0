@@ -13,7 +13,7 @@ Building practical AI-agent workflows, reusable skills, and automation systems �
 
 - 🌱 **[cannabis-master](https://github.com/banozz0/cannabis-master)** — public Hermes cultivation skill for legal home-grow education, troubleshooting, IPM, nutrients, harvest timing, drying/curing, and safety-bounded advanced workflows
 - 🎯 **[acca-tracker](https://github.com/banozz0/acca-tracker)** — multi-sport accumulator tracking skill with live-score monitoring and bet status updates
-- - 🔄 [hermes-agent-rename-skill](https://github.com/banozz0/hermes-agent-rename-skill) — audit-first Hermes profile/agent rename workflow with rollback, delegation, supervisor, and health-safe migration guidance
+- 🔄 [hermes-agent-rename-skill](https://github.com/banozz0/hermes-agent-rename-skill) — audit-first Hermes profile/agent rename workflow with rollback, delegation, supervisor, and health-safe migration guidance
 
 ## Tools/Projects I Love
 
