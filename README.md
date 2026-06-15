@@ -1,6 +1,12 @@
 # Hi, I'm Banozz 👋
 
-📍 **Malta** | 🤖 **AI agents / Hermes** | ⚡ **Claude / Codex**
+## Tools & interests
+
+`Python` · `TypeScript` · `LLMs` · `AI Agents` · `Automation` · `Obsidian` · `GitHub` · `APIs` · `macOS` · `Research Systems` · `Personal Knowledge Management`
+
+Currently playing with:
+
+`Hermes` · `Claude` · `OpenAI` · `Grok` · `OpenRouter` · `GitHub Actions` · `Telegram Bots`
 
 Building practical AI-agent workflows, reusable skills, and automation systems — turning messy ideas into tools that actually help.
 
