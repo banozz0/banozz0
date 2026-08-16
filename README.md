@@ -1,6 +1,6 @@
 # Hi, I'm Banozz 👋
 
-📍 **Malta** &nbsp;|&nbsp; 🤖 **AI agents / Hermes** &nbsp;|&nbsp; ⚡ **Claude / Codex** &nbsp;|&nbsp; 🛠 **I ship small tools**
+📍 **Malta** &nbsp;|&nbsp; 🤖 **AI agents / Hermes** &nbsp;|&nbsp; ⚡ **Claude / Codex** &nbsp;|&nbsp; 
 
 I build practical tools for my own life and publish the ones that hold up. Solo projects, MIT licensed. **AI agents write the code under my review**; I decide what ships. Fixes are best-effort, no support promised.
 
