@@ -6,6 +6,8 @@
 
 **Working on an app that facilitates the routine of nutrition geeks 👀.**
 
+**Open to work:** looking for my first role in AI automation or AI operations. Remote, English. Email below.
+
 Everything I push is tested before it ships. If you find a bug or have an idea, open an issue or send a PR.
 
 <a href="https://shipper.club"><img alt="Shipper Club" src="https://img.shields.io/badge/Shipper%20Club-Member-16a34a?style=for-the-badge&logoColor=white"></a>
@@ -30,10 +32,11 @@ Both CLIs follow the same design: local-first, no account, nothing phoned home.
 
 | Project | What I did |
 | :--- | :--- |
-| **[Ghostex](https://github.com/maddada/Ghostex)**<br>`Rust · macOS` | Built out the Kanban board — custom columns, tag filtering, lane sorting, persistent view preferences — plus agent session dispatch, and fixes across chat, worktrees and the CEF panes. |
+| **[Ghostex](https://github.com/maddada/Ghostex)**<br>`Rust · macOS` | Built out the Kanban board — custom columns, tag filtering, lane sorting, persistent view preferences — plus agent session dispatch, and fixes across chat, worktrees and the CEF panes. Lately: picking a worker's model and effort at launch, and a model pick that applies to one session only. Designed the [ghostex.dev](https://ghostex.dev) landing page that's live now; maddada built the final version. |
 | **[beads](https://github.com/gastownhall/beads)**<br>`Go` | Added the `comment`, `comments` and `note` MCP tools, so an agent can write back to the card it's working. |
-| **[Hermes Agent](https://github.com/NousResearch/hermes-agent)**<br>`Python` | Gateway work, in review: carrying command metadata through a reset, quota-aware routing across credential pools, and a context meter with compaction alerts. |
+| **[Hermes Agent](https://github.com/NousResearch/hermes-agent)**<br>`Python` | [In review](https://github.com/NousResearch/hermes-agent/pull/112321): `skill_manage` follows symlinked skill folders, with rollback and ownership staying on the link. |
 | **[Ghostex Extensions](https://github.com/maddada/Ghostex-extensions)**<br>`TypeScript` | Contributed the Canvas extension. |
+| **[Sideshow](https://github.com/modem-dev/sideshow)**<br>`TypeScript` | In review: [download a surface as the file it came from](https://github.com/modem-dev/sideshow/pull/266), and [markdown tables that scroll instead of splitting words](https://github.com/modem-dev/sideshow/pull/267). |
 
 ## My AI stack
 
