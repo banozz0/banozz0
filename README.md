@@ -32,7 +32,7 @@ Both CLIs follow the same design: local-first, no account, nothing phoned home.
 
 | Project | What I did |
 | :--- | :--- |
-| **[Ghostex](https://github.com/maddada/Ghostex)**<br>`Rust · macOS` | Built out the Kanban board — custom columns, tag filtering, lane sorting, persistent view preferences — plus agent session dispatch, and fixes across chat, worktrees and the CEF panes. Lately: picking a worker's model and effort at launch, and a model pick that applies to one session only. Designed the [ghostex.dev](https://ghostex.dev) landing page that's live now; maddada built the final version. |
+| **[Ghostex](https://github.com/maddada/Ghostex)**<br>`Rust · macOS` | [35 merged PRs](https://github.com/maddada/Ghostex/pulls?q=is%3Apr+author%3Abanozz0+is%3Amerged). Built out the Kanban board — custom columns, tag filtering, lane sorting, persistent view preferences — plus agent session dispatch, picking a worker's model and effort at launch, and a model pick for one session only. Also Global Actions, worktree renaming, and fixes across chat, worktrees and the CEF panes. Designed and built the [ghostex.dev](https://ghostex.dev) landing page that's live now. |
 | **[beads](https://github.com/gastownhall/beads)**<br>`Go` | Added the `comment`, `comments` and `note` MCP tools, so an agent can write back to the card it's working. |
 | **[Hermes Agent](https://github.com/NousResearch/hermes-agent)**<br>`Python` | [In review](https://github.com/NousResearch/hermes-agent/pull/112321): `skill_manage` follows symlinked skill folders, with rollback and ownership staying on the link. |
 | **[Ghostex Extensions](https://github.com/maddada/Ghostex-extensions)**<br>`TypeScript` | Contributed the Canvas extension. |
