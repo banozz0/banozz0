@@ -14,9 +14,7 @@ Everything I push is tested before it ships. If you find a bug or have an idea, 
 <a href="https://x.com/banozz_"><img alt="X" src="https://img.shields.io/badge/X-@banozz__-111111?style=for-the-badge&logo=x&logoColor=white"></a>
 <a href="mailto:svenmedina07@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-Get%20in%20touch-1a7f37?style=for-the-badge&logo=gmail&logoColor=white"></a>
 
-<br><br>
-
-<img alt="Banozz's GitHub stats" src="https://github-stats-extended.vercel.app/api?username=banozz0&show_icons=true&hide_border=true&bg_color=00000000&title_color=8B5CF6&icon_color=EF4444&text_color=888888&ring_color=8B5CF6">
+<p align="center"><img alt="Banozz's GitHub stats" src="https://github-stats-extended.vercel.app/api?username=banozz0&show_icons=true&hide_border=true&bg_color=00000000&title_color=8B5CF6&icon_color=EF4444&text_color=888888&ring_color=8B5CF6"></p>
 
 </div>
 
