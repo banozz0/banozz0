@@ -14,8 +14,6 @@ Everything I push is tested before it ships. If you find a bug or have an idea, 
 <a href="https://x.com/banozz_"><img alt="X" src="https://img.shields.io/badge/X-@banozz__-111111?style=for-the-badge&logo=x&logoColor=white"></a>
 <a href="mailto:svenmedina07@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-Get%20in%20touch-1a7f37?style=for-the-badge&logo=gmail&logoColor=white"></a>
 
-<p align="center"><img alt="Banozz's GitHub stats" src="https://github-stats-extended.vercel.app/api?username=banozz0&show_icons=true&hide_border=true&bg_color=00000000&title_color=8B5CF6&icon_color=EF4444&text_color=888888&ring_color=8B5CF6"></p>
-
 </div>
 
 ---
@@ -51,13 +49,5 @@ What actually runs, most days:
 | **Hermes Agent** | The always-on half: memory, skills and scheduled jobs I can reach from Telegram or Discord when I'm nowhere near a desktop. |
 | **Ghostex** | The ADE every agent runs in. Most of my merged PRs are in it, which should tell you how much I use it. |
 
-## Studying
 
-Collecting the certificates and building the portfolio at the same time, aiming at a job in the AI/Tech Industry. The course I'm working through was written by Claude Code, which I pointed at the job market first — real postings, real requirements, the certification landscape — then worked backwards into ten phases, each one ending in something public instead of a certificate of attendance.
-
-## Off the clock
-
-- 🎮 **Gaming** — better at it than I am at Spanish
-- 🏋️ **Training** — the one loop I run without an agent
-- 📺 **Anime** — *"I have no enemies."* Code review disagrees
-- 🇪🇸 **Spanish** — self taught from a course I created with Claude Code 🫠 
+<p align="center"><img alt="Banozz's GitHub stats" src="https://github-stats-extended.vercel.app/api?username=banozz0&show_icons=true&hide_border=true&bg_color=00000000&title_color=8B5CF6&icon_color=EF4444&text_color=888888&ring_color=8B5CF6"></p>
