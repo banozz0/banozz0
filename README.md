@@ -25,7 +25,7 @@ Everything I push is tested before it ships. If you find a bug or have an idea, 
 | **[telegram-tools](https://github.com/banozz0/telegram-tools)** | Telegram buries the IDs everything else needs, and makes a few jobs oddly hard. This tool makes them simply accessible via CLI — emptying a topic, exporting a thread, editing your bot. Type the tool's name and a menu opens. | `cli tool` |
 | **[discord-tools](https://github.com/banozz0/discord-tools)** | Same idea, your Discord bot. One token in, and the server answers from the terminal — channels, threads, search, export. | `cli tool` |
 | **[acca-tracker](https://github.com/banozz0/acca-tracker)** | Photo of a bet slip in. Every leg parsed and confirmed, then tracked from public scores — alive, dead, won. It reports; it never advises. | `agent skill` |
-| **[Ghostex onboarding](https://github.com/banozz0/ghostex-onboarding-prototypes)** | The first-run flow every new Ghostex user now sees. I designed it and built the clickable prototypes it was coded from: six versions, React and WebGL. [Try it live](https://banozz0.github.io/ghostex-onboarding-prototypes/). | `design · prototype` |
+| **[Ghostex onboarding](https://github.com/banozz0/ghostex-onboarding-prototypes)** | The first-run flow every new Ghostex user now sees. I designed it and built the clickable prototypes it was coded from: concept to final, React and WebGL. [Try it live](https://banozz0.github.io/ghostex-onboarding-prototypes/). | `design · prototype` |
 
 Both CLIs follow the same design: local-first, no account, nothing phoned home.
 
