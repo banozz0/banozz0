@@ -25,6 +25,7 @@ Everything I push is tested before it ships. If you find a bug or have an idea, 
 | **[telegram-tools](https://github.com/banozz0/telegram-tools)** | Telegram buries the IDs everything else needs, and makes a few jobs oddly hard. This tool makes them simply accessible via CLI — emptying a topic, exporting a thread, editing your bot. Type the tool's name and a menu opens. | `cli tool` |
 | **[discord-tools](https://github.com/banozz0/discord-tools)** | Same idea, your Discord bot. One token in, and the server answers from the terminal — channels, threads, search, export. | `cli tool` |
 | **[acca-tracker](https://github.com/banozz0/acca-tracker)** | Photo of a bet slip in. Every leg parsed and confirmed, then tracked from public scores — alive, dead, won. It reports; it never advises. | `agent skill` |
+| **[Ghostex onboarding](https://github.com/banozz0/ghostex-onboarding-prototypes)** | The first-run flow every new Ghostex user now sees. I designed it and built the clickable prototypes it was coded from: six versions, React and WebGL. [Try it live](https://banozz0.github.io/ghostex-onboarding-prototypes/). | `design · prototype` |
 
 Both CLIs follow the same design: local-first, no account, nothing phoned home.
 
@@ -32,7 +33,7 @@ Both CLIs follow the same design: local-first, no account, nothing phoned home.
 
 | Project | What I did |
 | :--- | :--- |
-| **[Ghostex](https://github.com/maddada/Ghostex)**<br>`Rust · macOS` | [35 merged PRs](https://github.com/maddada/Ghostex/pulls?q=is%3Apr+author%3Abanozz0+is%3Amerged). Built out the Kanban board — custom columns, tag filtering, lane sorting, persistent view preferences — plus agent session dispatch, picking a worker's model and effort at launch, and a model pick for one session only. Also Global Actions, worktree renaming, and fixes across chat, worktrees and the CEF panes. Designed and built the [ghostex.dev](https://ghostex.dev) landing page that's live now. |
+| **[Ghostex](https://github.com/maddada/Ghostex)**<br>`Rust · macOS` | [35 merged PRs](https://github.com/maddada/Ghostex/pulls?q=is%3Apr+author%3Abanozz0+is%3Amerged). Built out the Kanban board — custom columns, tag filtering, lane sorting, persistent view preferences — plus agent session dispatch, picking a worker's model and effort at launch, and a model pick for one session only. Also Global Actions, worktree renaming, and fixes across chat, worktrees and the CEF panes. Designed the [ghostex.dev](https://ghostex.dev) landing page that's live now (maddada built it), and the app's [first-run onboarding](https://github.com/banozz0/ghostex-onboarding-prototypes). |
 | **[beads](https://github.com/gastownhall/beads)**<br>`Go` | Added the `comment`, `comments` and `note` MCP tools, so an agent can write back to the card it's working. |
 | **[Hermes Agent](https://github.com/NousResearch/hermes-agent)**<br>`Python` | [In review](https://github.com/NousResearch/hermes-agent/pull/112321): `skill_manage` follows symlinked skill folders, with rollback and ownership staying on the link. |
 | **[Ghostex Extensions](https://github.com/maddada/Ghostex-extensions)**<br>`TypeScript` | Contributed the Canvas extension. |
