@@ -2,17 +2,15 @@
 
 # Banozz
 
-### I ship tools I actually use — and the agents write the code.
+### I run a team of AI agents that builds, tests and ships real software.
 
-**Working on an app that facilitates the routine of nutrition geeks 👀.**
+**Open to work:** AI automation and AI operations roles. Remote, English. Email below.
 
-**Open to work:** looking for my first role in AI automation or AI operations. Remote, English. Email below.
+Found a bug or have an idea? Open an issue or send a PR.
 
-Everything I push is tested before it ships. If you find a bug or have an idea, open an issue or send a PR.
-
-<a href="https://shipper.club"><img alt="Shipper Club" src="https://img.shields.io/badge/Shipper%20Club-Member-16a34a?style=for-the-badge&logoColor=white"></a>
-<a href="https://x.com/banozz_"><img alt="X" src="https://img.shields.io/badge/X-@banozz__-111111?style=for-the-badge&logo=x&logoColor=white"></a>
-<a href="mailto:svenmedina07@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-Get%20in%20touch-1a7f37?style=for-the-badge&logo=gmail&logoColor=white"></a>
+<a href="mailto:svenmedina07@gmail.com"><img alt="Email: get in touch" src="https://img.shields.io/badge/-Get%20in%20touch-7c3aed?style=for-the-badge&labelColor=5b21b6&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyLjI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHdpZHRoPSIyMCIgaGVpZ2h0PSIxNiIgeD0iMiIgeT0iNCIgcng9IjIiLz48cGF0aCBkPSJtMjIgNy04Ljk3IDUuN2ExLjk0IDEuOTQgMCAwIDEtMi4wNiAwTDIgNyIvPjwvc3ZnPg%3D%3D"></a>
+<a href="https://x.com/banozz_"><img alt="X: @banozz_" src="https://img.shields.io/badge/-%40banozz__-7c3aed?style=for-the-badge&labelColor=5b21b6&logo=x&logoColor=white"></a>
+<a href="https://shipper.club"><img alt="Shipper Club member" src="https://img.shields.io/badge/-Shipper%20Club%20member-7c3aed?style=for-the-badge&labelColor=5b21b6&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyLjI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik00LjUgMTYuNWMtMS41IDEuMjYtMiA1LTIgNXMzLjc0LS41IDUtMmMuNzEtLjg0LjctMi4xMy0uMDktMi45MWEyLjE4IDIuMTggMCAwIDAtMi45MS0uMDl6Ii8%2BPHBhdGggZD0ibTEyIDE1LTMtM2EyMiAyMiAwIDAgMSAyLTMuOTVBMTIuODggMTIuODggMCAwIDEgMjIgMmMwIDIuNzItLjc4IDcuNS02IDExYTIyLjM1IDIyLjM1IDAgMCAxLTQgMnoiLz48cGF0aCBkPSJNOSAxMkg0cy41NS0zLjAzIDItNGMxLjYyLTEuMDggNSAwIDUgMCIvPjxwYXRoIGQ9Ik0xMiAxNXY1czMuMDMtLjU1IDQtMmMxLjA4LTEuNjIgMC01IDAtNSIvPjwvc3ZnPg%3D%3D"></a>
 
 </div>
 
@@ -99,13 +97,26 @@ Both CLIs follow the same design: local-first, no account, nothing phoned home.
 
 </details>
 
-## My AI stack
+## What I run
 
-What actually runs, most days:
+One person, a team of agents. Every job is a card on a shared board, and nothing counts as done until it has passed its tests and a separate reviewer agent has checked it. I write the specs, make the calls and approve anything risky. Scheduled jobs and nightly backups run on their own.
+
+<!-- diagram:start -->
+<details>
+<summary><b>How a job moves from spec to done</b></summary>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/agents-dark.svg">
+  <img alt="How a job moves from spec to done. 1. Me: Specs, decisions, approvals. 2. Shared task board: Every job is a card. 3. In parallel, Hermes agents: Always on, reachable from Discord and Telegram (Harry: planning and triage; Dobby: runs the system; Researcher: sourced research; Content: drafts posts); and Builders: Claude Code workers in Ghostex build and document. 4. Tested: Tests, builds, checked in the real app. 5. Reviewed: A separate reviewer agent checks every finished card. 6. Done. Failed test or review: back to the board." src="assets/agents-light.svg">
+</picture>
+</details>
+<!-- diagram:end -->
+
+The tools it runs on:
 
 | Tool | What it's for |
 | :--- | :--- |
-| **Claude Code** | Where the building happens. From brainstorming an idea to the final finished shipped product (And a lot of bug fixing during testing in between!) |
+| **Claude Code** | Where the building happens, from brainstorming an idea to the shipped product, with plenty of bug fixing in between. |
 | **Codex** | Quick patches — and the provider my Hermes agents use. |
 | **Hermes Agent** | The always-on half: memory, skills and scheduled jobs I can reach from Telegram or Discord when I'm nowhere near a desktop. |
 | **Ghostex** | The ADE every agent runs in. Most of my merged PRs are in it, which should tell you how much I use it. |
