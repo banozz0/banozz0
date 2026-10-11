@@ -101,7 +101,7 @@ All three CLIs follow the same design: local-first, no account, nothing phoned h
 
 ## What I run
 
-One person, a team of agents. Every job is a card on a shared board, and nothing counts as done until it has passed its tests and a separate reviewer agent has checked it. I write the specs, make the calls and approve anything risky. Scheduled jobs and nightly backups run on their own.
+One person, a team of agents. Every job is a task on a spec page, each task runs in its own Ghostex thread, and nothing counts as done until it has passed its tests and a separate reviewer agent has checked it. Specs, notes and decisions live in one shared vault every agent reads and writes. I write the specs, make the calls and approve anything risky. Scheduled jobs and nightly backups run on their own.
 
 <!-- diagram:start -->
 <details>
@@ -109,7 +109,7 @@ One person, a team of agents. Every job is a card on a shared board, and nothing
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/agents-dark.svg">
-  <img alt="How a job moves from spec to done. 1. Me: Specs, decisions, approvals. 2. Shared task board: Every job is a card. 3. In parallel, Hermes agents: Always on, reachable from Discord and Telegram (Harry: planning and triage; Dobby: runs the system; Researcher: sourced research; Content: drafts posts); and Builders: Claude Code workers in Ghostex build and document. 4. Tested: Tests, builds, checked in the real app. 5. Reviewed: A separate reviewer agent checks every finished card. 6. Done. Failed test or review: back to the board." src="assets/agents-light.svg">
+  <img alt="How a job moves from spec to done. 1. Me: Specs, decisions, approvals. 2. Spec page: Every job is a task on the page. 3. In parallel, Hermes agents: Always on, reachable from Discord and Telegram (Harry: front desk on my phone; Dobby: runs the system; Content: drafts posts); and Builders: Claude Code agents, one Ghostex thread per task: build, research. 4. Tested: Tests, builds, checked in the real app. 5. Reviewed: A separate reviewer agent checks every finished task. 6. Done. Failed test or review: back to the spec." src="assets/agents-light.svg">
 </picture>
 </details>
 <!-- diagram:end -->

@@ -27,7 +27,6 @@ THEMES = {
 
 ICONS = {
     "user": '<path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>',
-    "board": '<rect width="18" height="18" x="3" y="3" rx="2"/><path d="M8 7v7"/><path d="M12 7v4"/><path d="M16 7v9"/>',
     "bot": '<path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/>'
            '<path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/>',
     "code": '<path d="m18 16 4-4-4-4"/><path d="m6 8-4 4 4 4"/><path d="m14.5 4-5 16"/>',
@@ -37,6 +36,8 @@ ICONS = {
            '<path d="M7 21H5a2 2 0 0 1-2-2v-2"/><circle cx="12" cy="12" r="1"/>'
            '<path d="M18.944 12.33a1 1 0 0 0 0-.66 7.5 7.5 0 0 0-13.888 0 1 1 0 0 0 0 .66 7.5 7.5 0 0 0 13.888 0"/>',
     "check": '<circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/>',
+    "page": '<path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/>'
+            '<path d="M10 9H8"/><path d="M16 13H8"/><path d="M16 17H8"/>',
 }
 
 # The content. Order is the flow; change words here, never in the SVGs.
@@ -44,14 +45,14 @@ ICONS = {
 # A group has rows (a crew list) or none (drawn as the workers window).
 Spec = namedtuple("Spec", "icon hue title sub rows", defaults=[None])
 ME = Spec("user", "fg", "Me", ["Specs, decisions, approvals"])
-BOARD = Spec("board", "fg", "Shared task board", ["Every job is a card"])
+SPEC = Spec("page", "fg", "Spec page", ["Every job is a task on the page"])
 HERMES = Spec("bot", "blue", "Hermes agents", ["Always on, reachable from", "Discord and Telegram"],
-              [("Harry", "planning and triage"), ("Dobby", "runs the system"),
-               ("Researcher", "sourced research"), ("Content", "drafts posts")])
-BUILDERS = Spec("code", "orange", "Builders", ["Claude Code workers in Ghostex", "build and document"])
+              [("Harry", "front desk on my phone"), ("Dobby", "runs the system"),
+               ("Content", "drafts posts")])
+BUILDERS = Spec("code", "orange", "Builders", ["Claude Code agents, one Ghostex", "thread per task: build, research"])
 TESTED = Spec("flask", "green", "Tested", ["Tests, builds, checked in the real app"])
-REVIEWED = Spec("eye", "violet", "Reviewed", ["A separate reviewer agent checks every finished card"])
-FAIL = ["Failed test or review:", "back to the board"]
+REVIEWED = Spec("eye", "violet", "Reviewed", ["A separate reviewer agent checks every finished task"])
+FAIL = ["Failed test or review:", "back to the spec"]
 
 # Layout. Every coordinate below derives from these.
 W, M = 792, 24                  # canvas width, outer margin
@@ -176,8 +177,8 @@ def arrow_left(x, y, c):
 def build(t):
     line = t["line"]
     y_me = M
-    y_board = y_me + STAGE_H + GAP
-    y_cols = y_board + STAGE_H + SPLIT
+    y_spec = y_me + STAGE_H + GAP
+    y_cols = y_spec + STAGE_H + SPLIT
     col_h = max(group_h(HERMES), group_h(BUILDERS))
     y_test = y_cols + col_h + SPLIT
     y_rev = y_test + STAGE_H + GAP
@@ -187,17 +188,17 @@ def build(t):
     lc, rc = lx + COL_W / 2, rx + COL_W / 2
     sx = CX + STAGE_W / 2           # right edge of the stage cards
 
-    paths = [elbow(CX, y_me + STAGE_H, CX, y_board),
-             elbow(CX, y_board + STAGE_H, lc, y_cols), elbow(CX, y_board + STAGE_H, rc, y_cols),
+    paths = [elbow(CX, y_me + STAGE_H, CX, y_spec),
+             elbow(CX, y_spec + STAGE_H, lc, y_cols), elbow(CX, y_spec + STAGE_H, rc, y_cols),
              elbow(lc, y_cols + col_h, CX, y_test), elbow(rc, y_cols + col_h, CX, y_test),
              elbow(CX, y_test + STAGE_H, CX, y_rev), elbow(CX, y_rev + STAGE_H, CX, y_done)]
     flow = [f'<path d="{d}" fill="none" stroke="{line}" stroke-width="1.5"/>' for d in paths]
-    flow += [arrow_down(CX, y, line) for y in (y_board, y_test, y_rev, y_done)]
+    flow += [arrow_down(CX, y, line) for y in (y_spec, y_test, y_rev, y_done)]
     flow += [arrow_down(x, y_cols, line) for x in (lc, rc)]
 
-    # Send-back rail: out of Tested and Reviewed, up the right side, into the board.
+    # Send-back rail: out of Tested and Reviewed, up the right side, into the spec.
     red, r = t["red"], CORNER
-    yb, yt, yr = y_board + STAGE_H / 2, y_test + STAGE_H / 2, y_rev + STAGE_H / 2
+    yb, yt, yr = y_spec + STAGE_H / 2, y_test + STAGE_H / 2, y_rev + STAGE_H / 2
     rail = (f'M{sx:g} {yr:g}H{RAIL - r:g}Q{RAIL:g} {yr:g} {RAIL:g} {yr - r:g}V{yb + r:g}'
             f'Q{RAIL:g} {yb:g} {RAIL - r:g} {yb:g}H{sx + 1:g}M{sx:g} {yt:g}H{RAIL:g}')
     back = [f'<path d="{rail}" fill="none" stroke="{red}" stroke-width="1.5" stroke-dasharray="5 4"/>',
@@ -205,7 +206,7 @@ def build(t):
     back += [text(RAIL - 12, (yt + yr) / 2 - 2 + i * LINE, s, 12, 500 if i == 0 else 400, red, "end")
              for i, s in enumerate(FAIL)]
 
-    cards = [*stage(y_me, ME, t), *stage(y_board, BOARD, t),
+    cards = [*stage(y_me, ME, t), *stage(y_spec, SPEC, t),
              *group(lx, y_cols, col_h, HERMES, t), *group(rx, y_cols, col_h, BUILDERS, t),
              *stage(y_test, TESTED, t), *stage(y_rev, REVIEWED, t)]
     dx = CX - DONE_W / 2
@@ -222,7 +223,7 @@ def build(t):
 def alt_text():
     say = lambda spec: f"{spec.title}: {' '.join(spec.sub)}"
     crew = "; ".join(f"{who}: {role}" for who, role in HERMES.rows)
-    return (f"{TITLE}. 1. {say(ME)}. 2. {say(BOARD)}. 3. In parallel, {say(HERMES)} ({crew}); "
+    return (f"{TITLE}. 1. {say(ME)}. 2. {say(SPEC)}. 3. In parallel, {say(HERMES)} ({crew}); "
             f"and {say(BUILDERS)}. 4. {say(TESTED)}. 5. {say(REVIEWED)}. 6. Done. {' '.join(FAIL)}.")
 
 
