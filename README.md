@@ -8,7 +8,7 @@
 
 Found a bug or have an idea? Open an issue or send a PR.
 
-<a href="mailto:svenmedina07@gmail.com"><img alt="Email: get in touch" src="https://img.shields.io/badge/-Get%20in%20touch-7c3aed?style=for-the-badge&labelColor=5b21b6&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyLjI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHdpZHRoPSIyMCIgaGVpZ2h0PSIxNiIgeD0iMiIgeT0iNCIgcng9IjIiLz48cGF0aCBkPSJtMjIgNy04Ljk3IDUuN2ExLjk0IDEuOTQgMCAwIDEtMi4wNiAwTDIgNyIvPjwvc3ZnPg%3D%3D"></a>
+<a href="mailto:banozz.dev@gmail.com"><img alt="Email: get in touch" src="https://img.shields.io/badge/-Get%20in%20touch-7c3aed?style=for-the-badge&labelColor=5b21b6&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyLjI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHdpZHRoPSIyMCIgaGVpZ2h0PSIxNiIgeD0iMiIgeT0iNCIgcng9IjIiLz48cGF0aCBkPSJtMjIgNy04Ljk3IDUuN2ExLjk0IDEuOTQgMCAwIDEtMi4wNiAwTDIgNyIvPjwvc3ZnPg%3D%3D"></a>
 <a href="https://x.com/banozz_"><img alt="X: @banozz_" src="https://img.shields.io/badge/-%40banozz__-7c3aed?style=for-the-badge&labelColor=5b21b6&logo=x&logoColor=white"></a>
 <a href="https://shipper.club"><img alt="Shipper Club member" src="https://img.shields.io/badge/-Shipper%20Club%20member-7c3aed?style=for-the-badge&labelColor=5b21b6&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyLjI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik00LjUgMTYuNWMtMS41IDEuMjYtMiA1LTIgNXMzLjc0LS41IDUtMmMuNzEtLjg0LjctMi4xMy0uMDktMi45MWEyLjE4IDIuMTggMCAwIDAtMi45MS0uMDl6Ii8%2BPHBhdGggZD0ibTEyIDE1LTMtM2EyMiAyMiAwIDAgMSAyLTMuOTVBMTIuODggMTIuODggMCAwIDEgMjIgMmMwIDIuNzItLjc4IDcuNS02IDExYTIyLjM1IDIyLjM1IDAgMCAxLTQgMnoiLz48cGF0aCBkPSJNOSAxMkg0cy41NS0zLjAzIDItNGMxLjYyLTEuMDggNSAwIDUgMCIvPjxwYXRoIGQ9Ik0xMiAxNXY1czMuMDMtLjU1IDQtMmMxLjA4LTEuNjIgMC01IDAtNSIvPjwvc3ZnPg%3D%3D"></a>
 <a href="https://github.com/sponsors/banozz0"><img alt="Sponsor me on GitHub" src="https://img.shields.io/badge/-Sponsor%20me-7c3aed?style=for-the-badge&labelColor=5b21b6&logo=githubsponsors&logoColor=ea4aaa"></a>
@@ -34,14 +34,17 @@ All three CLIs follow the same design: local-first, no account, nothing phoned h
 
 | Project | What I did |
 | :--- | :--- |
-| **[Ghostex](https://github.com/maddada/Ghostex)**<br>`Rust · macOS` | [44 merged PRs](https://github.com/maddada/Ghostex/pulls?q=is%3Apr+author%3Abanozz0+is%3Amerged). Built the Bots space: a sidebar mode for your Hermes agents, a feed of every cron run they deliver, and Hermes chats that name the bot, show its context and switch models. Built out the Kanban board — custom columns, tag filtering, lane sorting, persistent view preferences — plus agent session dispatch, picking a worker's model and effort at launch, and a model pick for one session only. Also Global Actions, worktree renaming, and fixes across chat, worktrees and the CEF panes. Designed the [ghostex.dev](https://ghostex.dev) landing page that's live now (maddada built it), and the app's [first-run onboarding](https://github.com/banozz0/ghostex-onboarding-prototypes). In review: [Empryo as a built-in agent](https://github.com/maddada/Ghostex/pull/207) (status, chat, fork, model picker, coordinator) and [its phone half](https://github.com/maddada/ghostex-mobile/pull/1). |
-| **[beads](https://github.com/gastownhall/beads)**<br>`Go` | Added the `comment`, `comments` and `note` MCP tools, so an agent can write back to the card it's working. |
+| **[Ghostex](https://github.com/maddada/Ghostex)**<br>`Rust · macOS` | [46 merged PRs](https://github.com/maddada/Ghostex/pulls?q=is%3Apr+author%3Abanozz0+is%3Amerged). Built the Bots space: a sidebar mode for your Hermes agents, a feed of every cron run they deliver, and Hermes chats that name the bot, show its context and switch models. Built out the Kanban board — custom columns, tag filtering, lane sorting, persistent view preferences — plus agent session dispatch, picking a worker's model and effort at launch, and a model pick for one session only. Also Global Actions, worktree renaming, and fixes across chat, worktrees and the CEF panes. Designed the [ghostex.dev](https://ghostex.dev) landing page that's live now (maddada built it), and the app's [first-run onboarding](https://github.com/banozz0/ghostex-onboarding-prototypes). Merged [Empryo as a built-in agent](https://github.com/maddada/Ghostex/pull/207) (status, chat, fork, model picker, coordinator) and [fixed Cmd+V in the chat composer](https://github.com/maddada/Ghostex/pull/222). |
+| **[Ghostex Mobile](https://github.com/maddada/ghostex-mobile)**<br>`TypeScript` | Merged [Empryo on the phone](https://github.com/maddada/ghostex-mobile/pull/1): chat agent, menus, coordinator and Find. |
+| **[gpui-component](https://github.com/maddada/gpui-component)**<br>`Rust` | In review: [stop focused inputs from redrawing the entire window every frame](https://github.com/maddada/gpui-component/pull/1), reducing unnecessary rendering in Ghostex. |
+| **[beads](https://github.com/gastownhall/beads)**<br>`Go` | [Added the `comment`, `comments` and `note` MCP tools](https://github.com/gastownhall/beads/pull/4603), so an agent can write back to the card it's working. |
 | **[Hermes Agent](https://github.com/NousResearch/hermes-agent)**<br>`Python` | In review: [`skill_manage` follows symlinked skill folders](https://github.com/NousResearch/hermes-agent/pull/112321), with rollback and ownership staying on the link, and [credential pools keep the model in scope](https://github.com/NousResearch/hermes-agent/pull/132231), so a cooldown on one model no longer empties the pool for another. |
 | **[Ghostex Extensions](https://github.com/maddada/Ghostex-extensions)**<br>`TypeScript` | Contributed the Canvas extension, now [drawing with real Excalidraw](https://github.com/maddada/Ghostex-extensions/pull/2). |
 | **[Sideshow](https://github.com/modem-dev/sideshow)**<br>`TypeScript` | In review: [download a surface as the file it came from](https://github.com/modem-dev/sideshow/pull/266), [markdown tables that scroll instead of splitting words](https://github.com/modem-dev/sideshow/pull/267), and [an opt-in wide layout for wide monitors](https://github.com/modem-dev/sideshow/pull/268). |
+| **[Awesome Hermes Agent](https://github.com/0xNyk/awesome-hermes-agent)** | [Added acca-tracker to Community Skills](https://github.com/0xNyk/awesome-hermes-agent/pull/33). |
 
 <details>
-<summary><b>All 44 merged Ghostex PRs</b></summary>
+<summary><b>All 46 merged Ghostex PRs</b></summary>
 
 **Bots space and Hermes**
 - [#167](https://github.com/maddada/Ghostex/pull/167) Bots: a sidebar mode for your Hermes agents, one row per profile
@@ -68,6 +71,8 @@ All three CLIs follow the same design: local-first, no account, nothing phoned h
 - [#74](https://github.com/maddada/Ghostex/pull/74) Keep an established issue prefix when a board is shared between projects
 
 **Agents and chat**
+- [#207](https://github.com/maddada/Ghostex/pull/207) Empryo as a built-in agent: status, chat, fork, model picker, coordinator, phone and Find
+- [#222](https://github.com/maddada/Ghostex/pull/222) Cmd+V pastes into the chat composer again
 - [#138](https://github.com/maddada/Ghostex/pull/138) Pick a worker's model and effort at launch
 - [#147](https://github.com/maddada/Ghostex/pull/147) Apply a model pick to one session without changing the default
 - [#150](https://github.com/maddada/Ghostex/pull/150) A wake never resumes another project's Claude conversation
@@ -98,30 +103,5 @@ All three CLIs follow the same design: local-first, no account, nothing phoned h
 - [#107](https://github.com/maddada/Ghostex/pull/107) Point submodule error hints at the right paths
 
 </details>
-
-## What I run
-
-One person, a team of agents. Every job is a task on a spec page, each task runs in its own Ghostex thread, and nothing counts as done until it has passed its tests and a separate reviewer agent has checked it. Specs, notes and decisions live in one shared vault every agent reads and writes. I write the specs, make the calls and approve anything risky. Scheduled jobs and nightly backups run on their own.
-
-<!-- diagram:start -->
-<details>
-<summary><b>How a job moves from spec to done</b></summary>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/agents-dark.svg">
-  <img alt="How a job moves from spec to done. 1. Me: Specs, decisions, approvals. 2. Spec page: Every job is a task on the page. 3. In parallel, Hermes agents: Always on, reachable from Discord and Telegram (Harry: front desk on my phone; Dobby: runs the system; Content: drafts posts); and Builders: Claude Code agents, one Ghostex thread per task: build, research. 4. Tested: Tests, builds, checked in the real app. 5. Reviewed: A separate reviewer agent checks every finished task. 6. Done. Failed test or review: back to the spec." src="assets/agents-light.svg">
-</picture>
-</details>
-<!-- diagram:end -->
-
-The tools it runs on:
-
-| Tool | What it's for |
-| :--- | :--- |
-| **Claude Code** | Where the building happens, from brainstorming an idea to the shipped product, with plenty of bug fixing in between. |
-| **Codex** | Quick patches — and the provider my Hermes agents use. |
-| **Hermes Agent** | The always-on half: memory, skills and scheduled jobs I can reach from Telegram or Discord when I'm nowhere near a desktop. |
-| **Ghostex** | The ADE every agent runs in. Most of my merged PRs are in it, which should tell you how much I use it. |
-
 
 <p align="center"><img alt="Banozz's GitHub stats" src="https://github-stats-extended.vercel.app/api?username=banozz0&show_icons=true&hide_border=true&bg_color=00000000&title_color=8B5CF6&icon_color=EF4444&text_color=888888&ring_color=8B5CF6"></p>
