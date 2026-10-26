@@ -34,17 +34,17 @@ All three CLIs follow the same design: local-first, no account, nothing phoned h
 
 | Project | What I did |
 | :--- | :--- |
-| **[Ghostex](https://github.com/maddada/Ghostex)**<br>`Rust · macOS` | [46 merged PRs](https://github.com/maddada/Ghostex/pulls?q=is%3Apr+author%3Abanozz0+is%3Amerged). Built the Bots space: a sidebar mode for your Hermes agents, a feed of every cron run they deliver, and Hermes chats that name the bot, show its context and switch models. Built out the Kanban board — custom columns, tag filtering, lane sorting, persistent view preferences — plus agent session dispatch, picking a worker's model and effort at launch, and a model pick for one session only. Also Global Actions, worktree renaming, and fixes across chat, worktrees and the CEF panes. Designed the [ghostex.dev](https://ghostex.dev) landing page that's live now (maddada built it), and the app's [first-run onboarding](https://github.com/banozz0/ghostex-onboarding-prototypes). Merged [Empryo as a built-in agent](https://github.com/maddada/Ghostex/pull/207) (status, chat, fork, model picker, coordinator) and [fixed Cmd+V in the chat composer](https://github.com/maddada/Ghostex/pull/222). |
+| **[Ghostex](https://github.com/maddada/Ghostex)**<br>`Rust · macOS` | [48 merged PRs](https://github.com/maddada/Ghostex/pulls?q=is%3Apr+author%3Abanozz0+is%3Amerged). Built the Bots space: a sidebar mode for your Hermes agents, a feed of every cron run they deliver, and Hermes chats that name the bot, show its context and switch models. Built out the Kanban board — custom columns, tag filtering, lane sorting, persistent view preferences — plus agent session dispatch, picking a worker's model and effort at launch, and a model pick for one session only. Also Global Actions, worktree renaming, and fixes across chat, worktrees and the CEF panes. Designed the [ghostex.dev](https://ghostex.dev) landing page that's live now (maddada built it), and the app's [first-run onboarding](https://github.com/banozz0/ghostex-onboarding-prototypes). Merged [Empryo as a built-in agent](https://github.com/maddada/Ghostex/pull/207) (status, chat, fork, model picker, coordinator) and [fixed Cmd+V in the chat composer](https://github.com/maddada/Ghostex/pull/222). Also fixed [Edit-menu clipboard actions in terminal and chat](https://github.com/maddada/Ghostex/pull/250) and [Easy Connect reconnection after mobile backgrounding](https://github.com/maddada/Ghostex/pull/265). |
 | **[Ghostex Mobile](https://github.com/maddada/ghostex-mobile)**<br>`TypeScript` | Merged [Empryo on the phone](https://github.com/maddada/ghostex-mobile/pull/1): chat agent, menus, coordinator and Find. |
 | **[gpui-component](https://github.com/maddada/gpui-component)**<br>`Rust` | In review: [stop focused inputs from redrawing the entire window every frame](https://github.com/maddada/gpui-component/pull/1), reducing unnecessary rendering in Ghostex. |
 | **[beads](https://github.com/gastownhall/beads)**<br>`Go` | [Added the `comment`, `comments` and `note` MCP tools](https://github.com/gastownhall/beads/pull/4603), so an agent can write back to the card it's working. |
-| **[Hermes Agent](https://github.com/NousResearch/hermes-agent)**<br>`Python` | In review: [`skill_manage` follows symlinked skill folders](https://github.com/NousResearch/hermes-agent/pull/112321), with rollback and ownership staying on the link, and [credential pools keep the model in scope](https://github.com/NousResearch/hermes-agent/pull/132231), so a cooldown on one model no longer empties the pool for another. |
+| **[Hermes Agent](https://github.com/NousResearch/hermes-agent)**<br>`Python` | In review: [`skill_manage` follows symlinked skill folders](https://github.com/NousResearch/hermes-agent/pull/112321), with rollback and ownership staying on the link, and [credential pools keep the model in scope](https://github.com/NousResearch/hermes-agent/pull/132231), so a cooldown on one model no longer empties the pool for another. Also in review: [keep the gateway responsive while loading profile policy](https://github.com/NousResearch/hermes-agent/pull/141161), moving blocking file reads off its event loop. |
 | **[Ghostex Extensions](https://github.com/maddada/Ghostex-extensions)**<br>`TypeScript` | Contributed the Canvas extension, now [drawing with real Excalidraw](https://github.com/maddada/Ghostex-extensions/pull/2). |
 | **[Sideshow](https://github.com/modem-dev/sideshow)**<br>`TypeScript` | In review: [download a surface as the file it came from](https://github.com/modem-dev/sideshow/pull/266), [markdown tables that scroll instead of splitting words](https://github.com/modem-dev/sideshow/pull/267), and [an opt-in wide layout for wide monitors](https://github.com/modem-dev/sideshow/pull/268). |
 | **[Awesome Hermes Agent](https://github.com/0xNyk/awesome-hermes-agent)** | [Added acca-tracker to Community Skills](https://github.com/0xNyk/awesome-hermes-agent/pull/33). |
 
 <details>
-<summary><b>All 46 merged Ghostex PRs</b></summary>
+<summary><b>All 48 merged Ghostex PRs</b></summary>
 
 **Bots space and Hermes**
 - [#167](https://github.com/maddada/Ghostex/pull/167) Bots: a sidebar mode for your Hermes agents, one row per profile
@@ -94,7 +94,9 @@ All three CLIs follow the same design: local-first, no account, nothing phoned h
 - [#101](https://github.com/maddada/Ghostex/pull/101) Dock the command pane on the right
 - [#76](https://github.com/maddada/Ghostex/pull/76) Optional background image behind terminal panes
 
-**Desktop and build fixes**
+**Desktop, mobile and build fixes**
+- [#250](https://github.com/maddada/Ghostex/pull/250) Edit-menu clipboard actions work in terminal and chat
+- [#265](https://github.com/maddada/Ghostex/pull/265) Easy Connect reconnects after the mobile app sat in the background
 - [#78](https://github.com/maddada/Ghostex/pull/78) Keep the live terminal when a command tab moves to Agents
 - [#92](https://github.com/maddada/Ghostex/pull/92) Resolve native CEF entries on the dev server
 - [#110](https://github.com/maddada/Ghostex/pull/110) Every CEF first responder owns the paste hotkey
