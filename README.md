@@ -4,7 +4,7 @@
 
 ### I run a team of AI agents that builds, tests and ships real software.
 
-**Open to work:** AI automation and AI operations roles. Remote, English. Email below.
+**Open to work:** AI automation, integration and operations roles. Malta (on-site, hybrid or remote) or remote. English and Maltese. Email below.
 
 Found a bug or have an idea? Open an issue or send a PR.
 
@@ -29,6 +29,12 @@ Found a bug or have an idea? Open an issue or send a PR.
 | **[Ghostex onboarding](https://github.com/banozz0/ghostex-onboarding-prototypes)** | The first-run flow every new Ghostex user now sees. I designed it and built the clickable prototypes it was coded from: concept to final, React and WebGL. [Try it live](https://banozz0.github.io/ghostex-onboarding-prototypes/). | `design · prototype` |
 
 All three CLIs follow the same design: local-first, no account, nothing phoned home.
+
+## How I work
+
+- I write the spec and the pass/fail check; Claude Code and Codex write the code.
+- A fresh agent that never saw the work reviews it against the spec before it lands; I read the diff.
+- Contributions go through each project's own maintainers: 53 merged pull requests across five open-source repos so far, 7 more in review.
 
 ## Contributed to
 
