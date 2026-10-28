@@ -32,8 +32,8 @@ All three CLIs follow the same design: local-first, no account, nothing phoned h
 
 ## How I work
 
-- I write the spec and the pass/fail check; Claude Code and Codex write the code.
-- I read every diff; finished projects also get a review from a fresh agent that never saw the work.
+- I decide what gets built and what counts as done; Claude Code and Codex draft the plan and write the code.
+- Nothing ships until it passes that check and I approve it; finished projects also get a review from a fresh agent that never saw the work.
 - Contributions go through each project's own maintainers: 53 merged pull requests across five open-source repos so far, 7 more in review.
 
 ## Contributed to
