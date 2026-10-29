@@ -22,6 +22,7 @@ Found a bug or have an idea? Open an issue or send a PR.
 
 | Project | What it does | Type |
 | :--- | :--- | :--- |
+| **[Pilot](https://github.com/banozz0/pilot)** | Your Mac from the keyboard. One native menu-bar app for a Hyper key, window tiling, workspaces, a launcher, clipboard history, web apps and quick AI. Open source; [download Pilot 1.0](https://github.com/banozz0/pilot/releases/tag/v1.0.0). | `macOS app` |
 | **[easy-cd](https://github.com/banozz0/easy-cd)** | Stop typing paths. Type `ecd`, pick a folder with the arrow keys or a few letters, press Enter, and your shell is there. Pinned and recent folders on 1–9, search across everything under home, Finder-style columns and a file reader. zsh, bash and fish; `brew install banozz0/tap/easy-cd`. | `cli tool` |
 | **[hermes-context](https://github.com/banozz0/hermes-context)** | My Hermes agents work in Discord threads, and nothing told me which one was about to run out of context. Now every session sits in the menu bar: how full its context is, and whether it's working, waiting on me or idle. Keeps a private history; never stores a message. One-line install. | `macOS app` |
 | **[telegram-tools](https://github.com/banozz0/telegram-tools)** | Telegram buries the IDs everything else needs, and makes a few jobs oddly hard. This tool makes them simply accessible via CLI — emptying a topic, exporting a thread, editing your bot. Type the tool's name and a menu opens. | `cli tool` |
