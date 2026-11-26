@@ -41,7 +41,7 @@ All three CLIs follow the same design: local-first, no account, nothing phoned h
 
 | Project | What I did |
 | :--- | :--- |
-| **[Ghostex](https://github.com/maddada/Ghostex)**<br>`Rust · macOS` | [53 merged PRs](https://github.com/maddada/Ghostex/pulls?q=is%3Apr+author%3Abanozz0+is%3Amerged). Built the Bots space for Hermes agents, the Kanban board, agent dispatch with model picks, and [Empryo as a built-in agent](https://github.com/maddada/Ghostex/pull/207). Designed the [ghostex.dev](https://ghostex.dev) landing page (maddada built it) and the app's [first-run onboarding](https://github.com/banozz0/ghostex-onboarding-prototypes). |
+| **[Ghostex](https://github.com/maddada/Ghostex)**<br>`Rust · macOS` | [53 merged PRs](https://github.com/maddada/Ghostex/pulls?q=is%3Apr+author%3Abanozz0+is%3Amerged). Built the Bots space for Hermes agents, the Kanban board, agent dispatch with model picks, and [Empryo as a built-in agent](https://github.com/maddada/Ghostex/pull/207). Designed the [ghostex.dev](https://ghostex.dev) landing page and the app's [first-run onboarding](https://github.com/banozz0/ghostex-onboarding-prototypes). |
 | **[Ghostex Mobile](https://github.com/maddada/ghostex-mobile)**<br>`TypeScript` | Merged [Empryo on the phone](https://github.com/maddada/ghostex-mobile/pull/1). |
 | **[gpui-component](https://github.com/maddada/gpui-component)**<br>`Rust` | [Tracked down a redraw loop](https://github.com/maddada/gpui-component/pull/1) that kept Ghostex rendering while idle. PR closed after upstream fixed the same issue. |
 | **[beads](https://github.com/gastownhall/beads)**<br>`Go` | [Added the `comment`, `comments` and `note` MCP tools](https://github.com/gastownhall/beads/pull/4603), so an agent can write back to its card. |
